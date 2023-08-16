@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+  place-items: center;
+  font-family: Helvetica;
+  background-color: #d8d9da;
+}
+
+header {
+  background: linear-gradient(to left, #3cb371, #90ee90, #2e8b57);
+  width: 650px;
+  margin: auto;
+  margin-top: -20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 10px 20px 50px #000;
+}
+
+main {
+  max-height: 100%;
+  width: 650px;
+  margin: auto;
+  border: 2px solid #90ee90;
+  margin-top: -21px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #4682a9, #91c8e4, #749bc2);
+  box-shadow: 10px 20px 50px #000;
+}
+
+figure img {
+  max-width: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.img2 {
+  margin-top: -20px;
+  margin-top: 5px;
+}
+
+p {
+  font-weight: bold;
+  justify-content: left;
+  text-align: left;
+  margin-left: 26px;
+  font-size: 20px;
+}
+
+#luasForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#luasForm label {
+  justify-content: left;
+  text-align: left;
+  margin-left: 26px;
+  font-size: 18px;
+}
+
+#luasForm input {
+  margin: 0px 26px 0px 26px;
+  border-radius: 7px;
+  border: 0px;
+}
+
+#luasForm input:focus {
+  border-color: antiquewhite;
+  background: #2e8b57;
+}
+
+#luasForm button {
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 0px;
+}
+
+#luasForm button:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, #2e8b57, #90ee90, #3cb371);
+  color: white;
+  transition: 1s;
+}
+
+#kelilingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#kelilingForm label {
+  justify-content: left;
+  text-align: left;
+  margin-left: 26px;
+  font-size: 18px;
+}
+
+#kelilingForm input {
+  margin: 0px 26px 0px 26px;
+  border-radius: 7px;
+  border: 0px;
+}
+
+#kelilingForm input:focus {
+  border-color: white;
+  background: #90ee90;
+}
+
+#kelilingForm button {
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 0px;
+}
+
+#kelilingForm button:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, #2e8b57, #90ee90, #3cb371);
+  color: white;
+  transition: 1s;
+}
+
+#result {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+}
+
+#kelilingresult {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+}
